@@ -1,0 +1,54 @@
+Ьфшт сыы
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: aquamarine;
+}
+h1 {
+  color: rgb(214, 6, 103);
+  font-size: 20px;
+
+  padding: 5px;
+  text-align: center;
+}
+p {
+  color: rgb(10, 3, 3);
+  margin: 20px;
+}
+.der3 {
+  background-size: 100% auto;
+  padding: 5px;
+  height: 260px;
+}
+.der4 {
+  padding: 5px;
+}
+footer {
+  font-size: 1pü;
+}
+.tyui {
+  background-color: rgb(17, 13, 241);
+  margin: -80px -825px -50px -20px;
+  font-size: 15px;
+}
+@media (max-width: 720px) {
+  body,
+  footer h2 {
+    font-size: 12px;
+    img {
+      width: 110px;
+    }
+  }
+}
+@media (max-width: 420px) {
+  body,
+  footer h2 {
+    font-size: 10px;
+  }
+  img {
+    width: 90px;
+  }
+}
